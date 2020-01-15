@@ -22,6 +22,7 @@ h2 {
 }
 
 body {
+  background-image: url ("./assets/background.jpg");
   background-color: rgb(53, 13, 13);
 }
 
@@ -33,7 +34,8 @@ body {
   font-size: 18px;
   text-align: center;
   color: white;
-  background-color: rgb(96, 26, 26);
+  background-image: url ("@/assets/background.jpg");
+  background-color: rgb(130, 34, 34);
   -webkit-box-shadow: 2px 2px 2px 3px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 3px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
   box-shadow: 2px 2px 2px 3px hsl(40, 23%, 77%);
@@ -48,6 +50,7 @@ body {
   font-weight: 100;
   text-align: center;
   color: white;
+  background-image: url ("@/assets/background2.jpg");
   background-color: rgb(130, 34, 34);
   margin: 0px;
   padding: 5px;
@@ -59,7 +62,8 @@ body {
 #nav {
   padding-bottom: 10px;
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
+  background-color: rgb(53, 13, 13);
 }
 
 #nav a {
