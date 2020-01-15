@@ -59,6 +59,10 @@ body {
   box-shadow: 0px 4px 0px 5px hsl(40, 23%, 77%);
 }
 
+a[href^="mailto"] {
+  color: rgb(255, 255, 0);
+}
+
 #nav {
   padding-bottom: 10px;
   text-align: center;
@@ -103,6 +107,8 @@ body {
 
 input[type="text"] {
   width: 26%;
+  line-height: 26px;
+  padding: 13px 10px;
   box-sizing: border-box;
   border: 2px solid burlywood;
   border-radius: 6px;
@@ -113,9 +119,5 @@ input[type="text"] {
 
 .heighttext {
   height: 25px;
-}
-
-a[href^="mailto"] {
-  color:cyan;
 }
 </style>
