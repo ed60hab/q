@@ -5,24 +5,24 @@
         <p><strong>Patient's Data</strong></p>
         <p>
           <input
-            type="text"
-            class="patientdata"
+            type="number"
+            class="heighttext"
             v-model="hr"
             placeholder="HR. bpm"
             size="5"
           />
           |
           <input
-            type="text"
-            class="patientdata"
+            type="number"
+            class="heighttext"
             v-model="weight"
             placeholder="Weight. kg"
             size="5"
           />
           |
           <input
-            type="text"
-            class="patientdata"
+            type="number"
+            class="heighttext"
             v-model="height"
             placeholder="Height. cm"
             size="5"
@@ -32,7 +32,7 @@
         <p>
           <strong>LVOT dmt: </strong>
           <input
-            type="text"
+            type="number"
             class="heighttext"
             v-model="lvot_diam"
             placeholder="PLAX"
@@ -43,7 +43,7 @@
         <p>
           <strong>LVOT VTI: </strong>
           <input
-            type="text"
+            type="number"
             class="heighttext"
             v-model="lvot_vti"
             placeholder="A4C"
@@ -55,7 +55,7 @@
         <p>
           <strong>RVOT dmt: </strong>
           <input
-            type="text"
+            type="number"
             class="heighttext"
             v-model="rvot_diam"
             placeholder="PSAX"
@@ -66,7 +66,7 @@
         <p>
           <strong>RVOT VTI: </strong>
           <input
-            type="text"
+            type="number"
             class="heighttext"
             v-model="rvot_vti"
             placeholder="PSAX"
@@ -95,7 +95,9 @@
         <p>
           <strong>QP/QS Ratio: {{ QpQs }}</strong>
         </p>
+        <br />
       </div>
+      <br />
       <p class="mini">Made with love in Salamanca, MMXX</p>
       <br />
     </div>
@@ -104,6 +106,8 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 
 <script>
+// import Vue from "vue";
+
 // new Vue({
 //   el: "#app",
 //   data: {
@@ -140,13 +144,14 @@
 //       return (this.QP / this.QS).toFixed(2);
 //     },
 //     BSA: function() {
-//       return (math.sqrt(this.weight * this.height) / 60).toFiex(2);
+//       return (Math.sqrt(this.weight * this.height) / 60).toFixed(2);
 //     },
 //     CI: function() {
 //       return this.QS * this.BSA;
 //     }
 //   }
 // });
+
 export default {
   name: "Q"
 };

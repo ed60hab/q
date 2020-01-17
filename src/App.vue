@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h2 class="blueshadow">Echo Q Calc</h2>
+    <header class="blueshadow">Echo Q Calc</header>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/acronyms">Acronyms</router-link> |
@@ -13,8 +13,11 @@
 <script></script>
 
 <style>
-h2 {
-  padding-top: 15px;
+header {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
 }
 .blueshadow {
   text-align: center;
@@ -35,10 +38,10 @@ body {
   text-align: center;
   color: white;
   background-image: url ("@/assets/background.jpg");
-  background-color: rgb(130, 34, 34);
-  -webkit-box-shadow: 2px 2px 2px 3px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 2px 2px 2px 3px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 2px 3px hsl(40, 23%, 77%);
+  background-color: rgb(96, 26, 26);
+  -webkit-box-shadow: 0px 1px 0px 1px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 1px 0px 1px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px -1px 0px 1px hsl(40, 23%, 77%);
 }
 
 .sqr {
@@ -53,10 +56,10 @@ body {
   background-image: url ("@/assets/background2.jpg");
   background-color: rgb(130, 34, 34);
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   -webkit-box-shadow: 3px 3px 3px 3px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 3px 3px 3px 3px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
-  box-shadow: 0px 4px 0px 5px hsl(40, 23%, 77%);
+  box-shadow: 0px 2px 0px 3px hsl(40, 23%, 77%);
 }
 
 a[href^="mailto"] {
@@ -105,19 +108,18 @@ a[href^="mailto"] {
   height: 25px;
 }
 
-input[type="text"] {
+input[type="number"] {
   width: 26%;
-  line-height: 26px;
-  padding: 13px 10px;
-  box-sizing: border-box;
-  border: 2px solid burlywood;
-  border-radius: 6px;
-  background-color: beige;
+  line-height: 15px;
+  /* padding: 13px 10px; */
+  /* box-sizing: border-box; */
+  /* border: 2px solid burlywood; */
+  /* border-radius: 6px; */
   color: black;
   text-align: center;
 }
 
 .heighttext {
-  height: 25px;
+  height: 18px;
 }
 </style>

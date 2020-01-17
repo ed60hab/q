@@ -26,8 +26,10 @@
         <p><strong>QP</strong> = HR x SVp (SVp = RVOT area x RVOT VTI)</p>
         <p>or (π (RVOT diameter/2)<sup>2</sup> x RVOT VTI)</p>
         <p><strong>QP/QS Ratio</strong> = QP/QS</p>
+        <br />
       </div>
     </div>
+    <br />
     <p class="mini">Made with love in Salamanca, MMXX</p>
     <br />
   </div>

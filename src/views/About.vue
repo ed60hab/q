@@ -8,12 +8,12 @@
           <strong class="blueshadow"
             ><strong><em>Echo Q Calc</em></strong></strong
           >
-          helps clinicians with calculation of Cardiac Output from the values
+          helps clinicians with the calculation of Cardiac Output from the values
           obtained by echocardiography.
         </p>
         <p>
-          It helps to avoid calculations errors while allowing doctors to save
-          time in the calculation process.
+          It helps to avoid calculation errors while allowing doctors to save
+          time in the process.
         </p>
         <p><strong>Acknowledgments</strong></p>
         <p>Vue.js https://vuejs.org/</p>
@@ -29,8 +29,10 @@
           <a href="mailto:ed60hab@gmail.com">ed60hab@gmail.com</a>. I will be
           pleased to attend your comments or assist you.
         </p>
+        <br />
       </div>
     </div>
+    <br />
     <p class="mini">Made with love in Salamanca, MMXX</p>
     <br />
   </div>
