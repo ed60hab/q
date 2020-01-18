@@ -95,11 +95,8 @@
         <p>
           <strong>QP/QS Ratio: {{ QpQs }}</strong>
         </p>
-        <br />
       </div>
-      <br />
       <p class="mini">Made with love in Salamanca, MMXX</p>
-      <br />
     </div>
   </div>
 </template>

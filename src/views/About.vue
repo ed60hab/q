@@ -29,11 +29,8 @@
           <a href="mailto:ed60hab@gmail.com">ed60hab@gmail.com</a>. I will be
           pleased to attend your comments or assist you.
         </p>
-        <br />
       </div>
     </div>
-    <br />
     <p class="mini">Made with love in Salamanca, MMXX</p>
-    <br />
   </div>
 </template>

@@ -25,7 +25,6 @@ header {
 }
 
 body {
-  background-image: url ("./assets/background.jpg");
   background-color: rgb(53, 13, 13);
 }
 
@@ -41,7 +40,7 @@ body {
   background-color: rgb(96, 26, 26);
   -webkit-box-shadow: 0px 1px 0px 1px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 0px 1px 0px 1px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
-  box-shadow: 0px -1px 0px 1px hsl(40, 23%, 77%);
+  box-shadow: 0px 2px 0px 3px hsl(40, 23%, 77%);
 }
 
 .sqr {
@@ -49,7 +48,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 100;
   text-align: center;
   color: white;
@@ -84,7 +83,7 @@ a[href^="mailto"] {
 }
 
 .info {
-  font-size: 18px;
+  font-size: 17px;
   text-align: left;
   margin-left: 15px;
   margin-right: 15px;
@@ -109,8 +108,8 @@ a[href^="mailto"] {
 }
 
 input[type="number"] {
-  width: 26%;
-  line-height: 15px;
+  width: 80px;
+  padding: 1px;
   /* padding: 13px 10px; */
   /* box-sizing: border-box; */
   /* border: 2px solid burlywood; */

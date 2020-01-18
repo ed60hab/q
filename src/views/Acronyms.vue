@@ -29,8 +29,6 @@
         <br />
       </div>
     </div>
-    <br />
     <p class="mini">Made with love in Salamanca, MMXX</p>
-    <br />
   </div>
 </template>
