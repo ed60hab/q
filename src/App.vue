@@ -36,10 +36,9 @@ body {
   font-size: 18px;
   text-align: center;
   color: white;
-  background-image: url ("@/assets/background.jpg");
   background-color: rgb(96, 26, 26);
-  -webkit-box-shadow: 0px 1px 0px 1px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 0px 1px 0px 1px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
+  -webkit-box-shadow: 0px 2px 0px 3px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 2px 0px 3px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
   box-shadow: 0px 2px 0px 3px hsl(40, 23%, 77%);
 }
 
@@ -52,17 +51,12 @@ body {
   font-weight: 100;
   text-align: center;
   color: white;
-  background-image: url ("@/assets/background2.jpg");
   background-color: rgb(130, 34, 34);
   margin: 0px;
   padding: 0px;
-  -webkit-box-shadow: 3px 3px 3px 3px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -webkit-box-shadow: 0px 3px 3px 3px hsl(40, 23%, 77%); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 3px 3px 3px 3px hsl(40, 23%, 77%); /* Firefox 3.5 - 3.6 */
   box-shadow: 0px 2px 0px 3px hsl(40, 23%, 77%);
-}
-
-a[href^="mailto"] {
-  color: rgb(255, 255, 0);
 }
 
 #nav {
@@ -98,9 +92,6 @@ a[href^="mailto"] {
   font-size: 16px;
   text-align: center;
 }
-.mini-left {
-  font-size: 14px;
-}
 
 .patientdata {
   width: 5px;
@@ -120,5 +111,9 @@ input[type="number"] {
 
 .heighttext {
   height: 18px;
+}
+
+a[href^="mailto"] {
+  color: rgb(255, 255, 0);
 }
 </style>
