@@ -5,14 +5,16 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    data: {
-      hr: "",
-      weight: "",
-      height: "",
-      lvot_diam: "",
-      lvot_vti: "",
-      rvot_diam: "",
-      rvot_vti: ""
+    data() {
+      return {
+        hr: "",
+        weight: "",
+        height: "",
+        lvot_diam: "",
+        lvot_vti: "",
+        rvot_diam: "",
+        rvot_vti: ""
+      };
     },
     isLoading: true
   },

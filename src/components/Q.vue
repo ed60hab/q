@@ -103,57 +103,51 @@
     </div>
   </div>
 </template>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 
 <script>
-// import Vue from "vue";
-
-// new Vue({
-//   el: "#app",
-//   data: {
-//     hr: "",
-//     weight: "",
-//     height: "",
-//     rvot_diam: "",
-//     rvot_vti: "",
-//     lvot_diam: "",
-//     lvot_vti: ""
-//   },
-//   computed: {
-//     SVp: function() {
-//       return (
-//         Math.PI *
-//         Math.pow(this.rvot_diam / 2, 2) *
-//         this.rvot_vti
-//       ).toFixed(2);
-//     },
-//     QP: function() {
-//       return ((this.hr * this.SVp) / 1000).toFixed(2);
-//     },
-//     SVs: function() {
-//       return (
-//         Math.PI *
-//         Math.pow(this.lvot_diam / 2, 2) *
-//         this.lvot_vti
-//       ).toFixed(2);
-//     },
-//     QS: function() {
-//       return ((this.hr * this.SVs) / 1000).toFixed(2);
-//     },
-//     QpQs: function() {
-//       return (this.QP / this.QS).toFixed(2);
-//     },
-//     BSA: function() {
-//       return (Math.sqrt(this.weight * this.height) / 60).toFixed(2);
-//     },
-//     CI: function() {
-//       return this.QS * this.BSA;
-//     }
-//   }
-// });
-
 export default {
-  name: "Q"
+  data() {
+    return {
+      hr: "",
+      weight: "",
+      height: "",
+      rvot_diam: "",
+      rvot_vti: "",
+      lvot_diam: "",
+      lvot_vti: ""
+    };
+  },
+  computed: {
+    SVp: function() {
+      return (
+        Math.PI *
+        Math.pow(this.rvot_diam / 2, 2) *
+        this.rvot_vti
+      ).toFixed(2);
+    },
+    QP: function() {
+      return ((this.hr * this.SVp) / 1000).toFixed(2);
+    },
+    SVs: function() {
+      return (
+        Math.PI *
+        Math.pow(this.lvot_diam / 2, 2) *
+        this.lvot_vti
+      ).toFixed(2);
+    },
+    QS: function() {
+      return ((this.hr * this.SVs) / 1000).toFixed(2);
+    },
+    QpQs: function() {
+      return (this.QP / this.QS).toFixed(2);
+    },
+    BSA: function() {
+      return (Math.sqrt(this.weight * this.height) / 60).toFixed(2);
+    },
+    CI: function() {
+      return this.QS * this.BSA;
+    }
+  }
 };
 </script>
 
