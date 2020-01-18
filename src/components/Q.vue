@@ -142,7 +142,7 @@ export default {
       return (Math.sqrt(this.weight * this.height) / 60).toFixed(2);
     },
     CI: function() {
-      return this.QS * this.BSA;
+      return (this.QS / this.BSA).toFixed(2);
     }
   }
 };
