@@ -18,9 +18,9 @@
         <p><strong>CI</strong>: Cardiac Index.</p>
         <p><strong>QP</strong>: Pulmonary Cardiac Output.</p>
         <p class="blueshadow"><strong>Formula:</strong></p>
-        <p><strong>LVOT area</strong> π (LVOT diameter/2</p>
+        <p><strong>LVOT area</strong> π (LVOT diameter/2)<sup>2</sup></p>
         <p><strong>Systemic SV</strong> = LVOT area x LVOT VTI</p>
-        <p><strong>QS</strong> = HR x SVs</p>
+        <p><strong>QS</strong> = HR x Systemic SV</p>
         <p><strong>BSA</strong> (Mosteller) = √(W * H) / 60</p>
         <p><strong>CI</strong> = QS * BSA</p>
         <p><strong>QP</strong> = HR x SVp (SVp = RVOT area x RVOT VTI)</p>
