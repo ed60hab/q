@@ -21,8 +21,8 @@
         <p></p>
         <p>
           <strong>Created and developed by</strong>
-          Dr. Eduardo Consuegra Llapur. Servicio de Pediatría. Hospital
-          Universitario de Salamanca, Spain
+          Dr. Eduardo Consuegra Llapur. Department of Pediatrics. Hospital
+          Universitario de Salamanca, Spain.
         </p>
         <p>
           Feel free to send your suggestions or opinions to
